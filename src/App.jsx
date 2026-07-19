@@ -327,7 +327,7 @@ function App() {
     
     <div className="grid md:grid-cols-2 gap-8">
       
-      {/* 🟢 Cricket Connect */}
+      {/* 🟢 FitFusion-AI */}
       <RevealOnScroll direction="left">
         <div className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-2xl hover:shadow-green-500/20 transition-all duration-500 border border-gray-100 flex flex-col h-full">
           
