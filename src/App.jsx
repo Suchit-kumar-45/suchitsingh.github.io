@@ -335,14 +335,14 @@ function App() {
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-20"></div>
             <Trophy size={64} className="text-white/10 group-hover:text-white/30 absolute -bottom-4 -right-4 rotate-12 transition-all duration-500" />
             <h3 className="text-3xl font-black text-white tracking-tighter relative z-10">
-              Cricket Connect
+              FitFusion-AI
             </h3>
           </div>
 
           <div className="p-8 flex-1 flex flex-col">
             <div className="flex justify-between items-start mb-4">
               <span className="px-3 py-1 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-wider rounded-full">
-                Sport Platform
+                Fitness Platform
               </span>
               <a href="#" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                 <Github size={20} className="text-gray-600" />
@@ -350,12 +350,11 @@ function App() {
             </div>
 
             <p className="text-gray-600 mb-6 leading-relaxed flex-1">
-              A hyper-local sports ecosystem connecting players, organizers, and academies. 
-              Solved the problem of finding local matches and managing tournament logistics.
+              FitFusion-AI is an AI-powered fitness platform that provides personalized workout plans, diet recommendations, real-time fitness guidance through an AI chatbot, BMI and calorie tracking, progress monitoring, workout history, and secure user authentication.
             </p>
 
             <div className="flex flex-wrap gap-2 mt-auto">
-              {['React.js', 'Node.js', 'Express', 'MongoDB'].map(tech => (
+              {['React.js', 'Node.js', 'Express', 'MongoDB', 'Gemini API'].map(tech => (
                 <span key={tech} className="px-3 py-1 bg-gray-50 text-gray-600 text-xs font-medium rounded-lg border border-gray-200">
                   {tech}
                 </span>
