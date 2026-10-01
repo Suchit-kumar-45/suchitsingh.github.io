@@ -344,9 +344,12 @@ function App() {
               <span className="px-3 py-1 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-wider rounded-full">
                 Fitness Platform
               </span>
-              <a href="https://expenselytics.tech/" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
+              <a href="https://github.com/Suchit-kumar-45/FitFusion-AI" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                 <Github size={20} className="text-gray-600" />
               </a>
+              <a href="https://fit-fusion-ai-tau.vercel.app/" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
+                  <ExternalLink size={20} className="text-gray-600" />
+                </a>
             </div>
 
             <p className="text-gray-600 mb-6 leading-relaxed flex-1">
@@ -384,10 +387,10 @@ function App() {
               </span>
 
               <div className="flex gap-2">
-                <a href="#" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
+                <a href="https://github.com/Suchit-kumar-45/Personal-Expense-Analytics" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                   <Github size={20} className="text-gray-600" />
                 </a>
-                <a href="#" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
+                <a href="https://expenselytics.tech/" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                   <ExternalLink size={20} className="text-gray-600" />
                 </a>
               </div>
