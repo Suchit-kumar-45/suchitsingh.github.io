@@ -262,7 +262,64 @@ function App() {
 
           <div className="space-y-12 md:space-y-0">
             
-            
+            {/* Timeline Item 3 */}
+            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+  <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-blue-600 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
+
+  <div className="w-full md:w-[calc(50%-2rem)] md:ml-auto">
+    <RevealOnScroll direction="right">
+      <div className="p-6 rounded-3xl bg-gray-50 hover:bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+        
+        <div className="flex items-center gap-4 mb-4">
+          <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-2 shadow-sm">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/..."
+              alt="Progress Software"
+              className="w-full h-full object-contain"
+            />
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg">SDE Intern</h3>
+            <p className="text-blue-600 text-xs font-bold uppercase">
+              Progress Software · Sep 2026 - Present
+            </p>
+          </div>
+        </div>
+
+        <p className="text-gray-600 text-sm leading-relaxed">
+          Working as a Software Development Engineer Intern at Progress Software,
+          contributing to software development, debugging, testing, and building
+          scalable applications while gaining hands-on experience with industry
+          development practices.
+        </p>
+
+      </div>
+    </RevealOnScroll>
+  </div>
+</div>
+            {/* Timeline Item 2 */}
+            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+               <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-blue-600 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
+               <div className="w-full md:w-[calc(50%-2rem)] md:ml-auto">
+                 <RevealOnScroll direction="right">
+                    <div className="p-6 rounded-3xl bg-gray-50 hover:bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                      <div className="flex items-center gap-4 mb-4">
+                        <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-2 shadow-sm">
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" className="w-full h-full object-contain" />
+                        </div>
+                        <div>
+                          <h3 className="font-bold text-lg">AWS Cloud Intern</h3>
+                          <p className="text-blue-600 text-xs font-bold uppercase">Jan 2026 - Mar 2026</p>
+                        </div>
+                      </div>
+                      <p className="text-gray-600 text-sm leading-relaxed">
+                        Mastered Core AWS services: EC2, S3, RDS. Architected secure cloud solutions and deployed apps using Elastic Beanstalk.
+                      </p>
+                    </div>
+                 </RevealOnScroll>
+               </div>
+            </div>
 
             {/* Timeline Item 1 */}
             <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
@@ -284,29 +341,6 @@ function App() {
                       </p>
                     </div>
                   </RevealOnScroll>
-               </div>
-            </div>
-
-            {/* Timeline Item 2 */}
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-               <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-blue-600 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
-               <div className="w-full md:w-[calc(50%-2rem)] md:ml-auto">
-                 <RevealOnScroll direction="right">
-                    <div className="p-6 rounded-3xl bg-gray-50 hover:bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
-                      <div className="flex items-center gap-4 mb-4">
-                        <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center p-2 shadow-sm">
-                           <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS" className="w-full h-full object-contain" />
-                        </div>
-                        <div>
-                          <h3 className="font-bold text-lg">AWS Cloud Intern</h3>
-                          <p className="text-blue-600 text-xs font-bold uppercase">Jan 2026 - Mar 2026</p>
-                        </div>
-                      </div>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        Mastered Core AWS services: EC2, S3, RDS. Architected secure cloud solutions and deployed apps using Elastic Beanstalk.
-                      </p>
-                    </div>
-                 </RevealOnScroll>
                </div>
             </div>
 
