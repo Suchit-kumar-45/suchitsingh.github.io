@@ -263,10 +263,10 @@ function App() {
           <div className="space-y-12 md:space-y-0">
             
             {/* Timeline Item 3 */}
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div className="relative flex items-center justify-between md:justify-normal group">
   <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-blue-600 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
 
-  <div className="w-full md:w-[calc(50%-2rem)] md:ml-auto">
+  <div className="w-full md:w-[calc(50%-2rem)] md:mr-auto">
     <RevealOnScroll direction="right">
       <div className="p-6 rounded-3xl bg-gray-50 hover:bg-white border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
         
@@ -299,7 +299,7 @@ function App() {
   </div>
 </div>
             {/* Timeline Item 2 */}
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div className="relative flex items-center justify-between md:justify-normal group">
                <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-blue-600 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
                <div className="w-full md:w-[calc(50%-2rem)] md:ml-auto">
                  <RevealOnScroll direction="right">
@@ -322,7 +322,7 @@ function App() {
             </div>
 
             {/* Timeline Item 1 */}
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+            <div className="relative flex items-center justify-between md:justify-normal group">
                <div className="flex items-center justify-center w-8 h-8 rounded-full border-4 border-white bg-red-500 shadow shrink-0 md:order-1 md:absolute md:left-1/2 md:transform md:-translate-x-1/2 z-10"></div>
                <div className="w-full md:w-[calc(50%-2rem)] md:mr-auto">
                   <RevealOnScroll direction="left">
