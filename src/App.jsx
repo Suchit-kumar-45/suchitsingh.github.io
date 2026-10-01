@@ -344,7 +344,7 @@ function App() {
               <span className="px-3 py-1 bg-green-50 text-green-700 text-xs font-bold uppercase tracking-wider rounded-full">
                 Fitness Platform
               </span>
-              <a href="#" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
+              <a href="https://expenselytics.tech/" className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                 <Github size={20} className="text-gray-600" />
               </a>
             </div>
